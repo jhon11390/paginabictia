@@ -86,5 +86,80 @@ li:hover > .menu_secundario {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: normal;
 }
 
+.proyectos h1 {
+    font-size: 20px;
+}
+
+.proyectos button {
+    margin-left: 30px;
+    background: #37c0fb;
+    border-color: #37c0fb;
+    padding: 10px;
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.proyectos a {
+    color: aliceblue;
+    text-decoration: none;
+    border-bottom: 1px dotted aliceblue;
+}
+
+.productos {
+    display: flex;
+    margin-top: 90px;
+}
+
+.productos article {
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productos img {
+    display: block;
+    width: 93.33px;
+    height: 93.33px;
+    margin-bottom: 60px;
+}
+
+.productos h1 {
+    margin-bottom: 50px;
+}
+
+.productos p {
+    margin: 10px;
+    text-align: center;
+    color: gray;
+    font-size: 130%;
+}
+
+.desarrolla {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.desarrolla h1,
+.desarrolla h2 {
+    margin: 50px;
+    font-size: 200%
+}
+
+.desarrolla h1 {
+    color: rgba(27, 27, 27, 0.75);
+}
+
+.desarrolla h2 {
+    font-weight: lighter;
+    color: gray;
+}
