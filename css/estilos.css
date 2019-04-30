@@ -143,6 +143,16 @@ li:hover > .menu_secundario {
     font-size: 130%;
 }
 
+.productos a {
+    color: #37c0fb;
+    text-decoration: none;
+    border-bottom: 1px dotted #37c0fb;
+}
+
+.productos a:hover {
+    border-bottom: none;
+}
+
 .desarrolla {
     width: 100%;
     height: 200px;
@@ -169,9 +179,19 @@ li:hover > .menu_secundario {
 }
 
 .trabajos {
+    margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.trabajos article {
+    margin: 20px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
 
 .trabajos img {
     display: block;
@@ -179,7 +199,24 @@ li:hover > .menu_secundario {
     height: 130.5px;
 }
 
+.trabajos .contenido {
+    width: 60%;
+    margin-left: 30px;
+    margin-right: 20px;
+    color: #333;
+}
+
+.trabajos h1 {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.trabajos p {
+    font-size: 20px;
+}
+
 .masproyectos {
+    margin-top: 50px;
     width: 100%;
     height: 187.66px;
     background: #37c0fb;
@@ -206,26 +243,129 @@ li:hover > .menu_secundario {
     height: 50px;
 }
 
+.masproyectos button:hover {
+    color: #37c0fb;
+}
+
 .contactenos {
     background: #cccccc;
     display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.contactenos h1 {
+    line-height: 40px;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contactenos a {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.contactenos a:hover {
+    color: #37c0fb;
 }
 
 .contactenos .clientes {
     display: flex;
     flex-direction: column;
+    width: 25%;
+    height: 500px;
+    padding-top: 60px;
+    padding-left: 50px;
 }
 
 .contactenos .proyectos_casa {
     display: flex;
     flex-direction: column;
+    width: 25%;
+    height: 500px;
+    padding-top: 60px;
 }
 
 .contactenos form {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    height: 500px;
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+.contactenos .inputsdeentrada {
+    display: flex;
+    justify-content: center;
+}
+
+.contactenos input {
+    width: 50%;
+    height: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.contactenos input:nth-child(1) {
+    margin-right: 20px;
+}
+
+.contactenos textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 180px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contactenos button {
+    width: 180px;
+    height: 60px;
+    margin-top: 20px;
+    color: #cccccc;
+    background: #333;
+    border-radius: 10px;
+    font-size: 15px;
 }
 
 footer {
     background: #cccccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer img {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+footer h1 {
+    width: 100%;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-weight: 10;
+}
+
+footer a{
+    text-decoration: none;
+    color: #333;
+}
+
+footer a:hover {
+    color: #37c0fb;
 }
